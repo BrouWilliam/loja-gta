@@ -154,6 +154,7 @@ body section .content__card.active {
 
 body section.section {
   background-color: #000;
+  min-height: 100vh;
 }
 
 body section.menu {
