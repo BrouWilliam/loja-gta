@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <section class="checkout">
+        <div class="container">
+            <h2>Checkout</h2>
+
+            <table>
+                <thead>
+                    <tr>
+                      <th>Produto</th>
+                      <th>Valor</th>
+                      <th>Ações</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Abarth</td>
+                      <td>R$: 20,00</td>
+                      <td>
+                        <button id="delete">
+                            <img src="img/icons8-delete-30.png" alt="">
+                        </button>
+                      </td>
+                    </tr>
+                    <tr>
+                        <td>Valor Total</td>
+                        <td>R$: 20,00</td>
+                        <td>
+                            <div class="input__cupon">
+                                <input type="text" placeholder="Cupom de desconto">
+                                <button>Aplicar</button>
+                            </div>
+                        </td>
+                      </tr>
+                   
+                  </tbody>
+            </table>
+
+            <form action="#">
+                <div class="input__group">
+                    <label for="">Nome Completo</label>
+                    <input type="text">
+                </div>
+
+                <div class="input__group">
+                    <label for="">E-mail</label>
+                    <input type="text">
+                </div>
+
+                <div class="input__group">
+                    <label for="">ID no servidor</label>
+                    <input type="text">
+                </div>
+
+                <div class="input__group">
+                    <label for="">Escolha Abarth para Abarth</label>
+                    <select name="" id="">
+                        <option value="">Valor 1</option>
+                        <option value="">Valor 2</option>
+                        <option value="">Valor 3</option>
+                    </select>
+                </div>
+
+                <div class="payment">
+                    <ul>
+                        <li>
+                            <img src="http://www.rio.rj.gov.br/igstatic/11/46/55/11465516.png" alt="">
+                        </li>
+                        <li>
+                            <img src="http://www.rio.rj.gov.br/igstatic/11/46/55/11465516.png" alt="">
+                        </li><li>
+                            <img src="http://www.rio.rj.gov.br/igstatic/11/46/55/11465516.png" alt="">
+                        </li><li>
+                            <img src="http://www.rio.rj.gov.br/igstatic/11/46/55/11465516.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="terms">
+                    <input type="checkbox">
+                    <p><a href="#">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad, atque?</a></p>
+                </div>
+            </form>
+        </div>
+    </section>
+
+</body>
+</html>
